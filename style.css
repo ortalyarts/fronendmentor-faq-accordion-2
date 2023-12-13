@@ -160,11 +160,11 @@ footer {
 
   main {
     max-width:57.5rem;
-    padding:0 5.938rem 0 0;
+    padding:0 2rem 0 0;
     margin:auto;
     margin-top: 8.025rem;
     grid-template-columns: 1fr 1fr;
-    gap:5.3rem;
+    gap:1rem;
     background: var(--color1) url(images/bg-pattern-desktop.svg) no-repeat top left;
     background-position: -36.1rem -18.5rem;
   }
@@ -213,5 +213,11 @@ footer {
   .accordion-body p {
     font-size:0.85rem;
     line-height:1.1rem;
+  }
+}
+@media screen and (min-width:60rem) {
+  main{
+    padding:0 5.938rem 0 0;
+    gap:5.3rem;
   }
 }
